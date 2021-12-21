@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="products">
+    <suite-files>
+        <suite-file path="Products/Blouse.xml"/>
+        <suite-file path="Products/Faded Short Sleeve T-shirts.xml"/>
+        <suite-file path="Products/Printed Chiffon Dress.xml"/>
+        <suite-file path="Products/Printed Dress 1.xml"/>
+        <suite-file path="Products/Printed Dress 2.xml"/>
+        <suite-file path="Products/Printed Summer Dress 1.xml"/>
+        <suite-file path="Products/Printed Summer Dress 2.xml"/>
+    </suite-files>
+</suite>

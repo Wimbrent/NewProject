@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login and Logout">
+    <test name="Login">
+        <classes>
+            <class name="PositiveTestCases.LoginTest">
+                <methods>
+                    <include name="successfullySignIn"/>
+                    <include name="successfullySignOut"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

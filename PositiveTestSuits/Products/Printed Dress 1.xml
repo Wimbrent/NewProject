@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Printed Dress">
+    <parameter name="number" value="3"/>
+    <parameter name="name" value="Printed Dress"/>
+
+    <test name="Login">
+        <classes>
+            <class name="PositiveTestCases.LoginTest">
+                <methods>
+                    <include name="successfullySignIn"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Add to Cart">
+        <classes>
+            <class name="PositiveTestCases.ProductCategories">
+                <methods>
+                    <include name="addToCart"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Add to Wishlist">
+        <parameter name="color" value="Orange"/>
+        <classes>
+            <class name="PositiveTestCases.ProductCategories">
+                <methods>
+                    <include name="addToWishList"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Remove from wishlist">
+        <classes>
+            <class name="PositiveTestCases.ProductCategories">
+                <methods>
+                    <include name="removeFromWishList"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <test name="Add to Compare">
+        <classes>
+            <class name="PositiveTestCases.ProductCategories">
+                <methods>
+                    <include name="addToCompare"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Remove from Compare">
+        <classes>
+            <class name="PositiveTestCases.ProductCategories">
+                <methods>
+                    <include name="removeFromCompare"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Select color orange, size S and buy">
+        <parameter name="colorByID" value="color_13"/>
+        <parameter name="size" value="S"/>
+        <classes>
+            <class name="PositiveTestCases.ProductCategories">
+                <methods>
+                    <include name="SelectColorAndBuy"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Select color orange, size M and buy">
+        <parameter name="colorByID" value="color_13"/>
+        <parameter name="size" value="M"/>
+        <classes>
+            <class name="PositiveTestCases.ProductCategories">
+                <methods>
+                    <include name="SelectColorAndBuy"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Select color orange, size L and buy">
+        <parameter name="colorByID" value="color_13"/>
+        <parameter name="size" value="L"/>
+        <classes>
+            <class name="PositiveTestCases.ProductCategories">
+                <methods>
+                    <include name="SelectColorAndBuy"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Quick view: Select color orange, size S and buy">
+        <parameter name="color" value="Orange"/>
+        <parameter name="size" value="S"/>
+        <classes>
+            <class name="PositiveTestCases.ProductCategories">
+                <methods>
+                    <include name="quickView"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Quick view: Select color orange, size M and buy">
+        <parameter name="color" value="Orange"/>
+        <parameter name="size" value="M"/>
+        <classes>
+            <class name="PositiveTestCases.ProductCategories">
+                <methods>
+                    <include name="quickView"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Quick view: Select color orange, size L and buy">
+        <parameter name="color" value="Orange"/>
+        <parameter name="size" value="L"/>
+        <classes>
+            <class name="PositiveTestCases.ProductCategories">
+                <methods>
+                    <include name="quickView"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

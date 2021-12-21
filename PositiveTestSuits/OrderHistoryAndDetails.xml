@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Order History and Details">
+    <test name="Login">
+        <classes>
+            <class name="PositiveTestCases.LoginTest">
+                <methods>
+                    <include name="successfullySignIn"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Reorder">
+        <classes>
+            <class name="PositiveTestCases.MyAccount.OrderHistoryAndDetails">
+                <methods>
+                    <include name="reorder"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Details">
+        <classes>
+            <class name="PositiveTestCases.MyAccount.OrderHistoryAndDetails">
+                <methods>
+                    <include name="details"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

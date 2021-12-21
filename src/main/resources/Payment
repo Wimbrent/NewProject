@@ -1,0 +1,26 @@
+_________________________
+TaxID = 06-2016
+_________________________
+
+companyName = Life is Good
+webSite = testsite.com
+
+_________________________
+Cheque Method
+_________________________
+Cheque = 25012012
+ChequePayeeName = Andy Johns
+
+_________________________
+PayPal Method
+_________________________
+PayPalEmail = paymapTestEmail@gmail.com
+
+_________________________
+Bank Method
+_________________________
+bankName = Bank of New Zealand
+brunchNumber = 771
+swiftCode = BoNZ
+accountName = AndyBoNZ
+accountNumber = 977

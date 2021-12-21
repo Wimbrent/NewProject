@@ -1,0 +1,47 @@
+_________________________
+New Account Information
+_________________________
+firstName = Grace
+lastName = Slick
+day = 30
+month = 10
+year = 1999
+email = myTestSelenium2@Gmail.com
+telephone = 8012012072016
+firstAddress = 1070 Lombard Street
+city = South San Francisco
+state = California
+country = United State
+postCode = 94109
+company = Jefferson Airplane
+
+password = newPasswordTest
+passwordConfirm = newPasswordTest
+
+newWrongPassword = newWrongPassword
+
+_________________________
+New Delivery Address
+_________________________
+newFirstNameDA = Ammy
+newLastNameDA = Smith
+newFirstAddressDA = N Winnetka Ave
+newCityDA = Dallas
+newPostCodeDA = 75208
+newCountryDA = United States
+newStatenDA = Texas
+newPhoneDA = 21420120125
+newMyAddressDA = AmmyDA
+
+_________________________
+New Billing Address
+_________________________
+newFirstNameBA = Peggy
+newLastNameBA = Lee
+newFirstAddressBA = Trendark ST SE
+newCityBA = Jamestown
+newPostCodeBA = 58401
+newCountryBA = United States
+newStateBA = North Dakota
+newPhoneBA = 70120160705
+newMyAddressBA = PeggyBA

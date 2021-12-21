@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Your personal information">
+
+    <test name="Login">
+        <classes>
+            <class name="PositiveTestCases.LoginTest">
+                <methods>
+                    <include name="successfullySignIn"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Edit personal information">
+        <classes>
+            <class name="PositiveTestCases.MyAccount.YourPersonalInformationTest">
+                <methods>
+                    <include name="editPersonalInformation"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

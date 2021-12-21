@@ -1,0 +1,30 @@
+_________________________
+Personal Information
+_________________________
+
+firstName = Andy
+lastName = Johns
+day = 20
+month = 3
+year = 1993
+email = myTestSelenium@Gmail.com
+telephone = 6102702102018
+password = testPassword
+myAddress = Test Address
+
+wrongPassword = Nindehad11
+wrongEmail = dsfsdafs@gmail.com
+
+
+_________________________
+Address
+_________________________
+company = Life is Good
+firstAddress = N Winnetka Ave
+city = Dallas
+postCode = 75208
+country = United States
+state = Texas
+
+usedEmail = dsfsdafs2@gmail.com
+TestEmail = dsfsdafs2@gmail2.com

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Address Positive Test">
+    <test name="Login">
+        <classes>
+            <class name="PositiveTestCases.LoginTest">
+                <methods>
+                    <include name="successfullySignIn"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="My Address">
+        <classes>
+            <class name="PositiveTestCases.MyAccount.MyAddressesTest">
+                <methods>
+                    <include name="addNewAddress"/>
+                    <include name="updateAddress"/>
+                    <include name="deleteAddress"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
