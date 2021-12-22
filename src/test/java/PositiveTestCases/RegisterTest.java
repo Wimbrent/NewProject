@@ -10,7 +10,7 @@ public class RegisterTest extends BaseTest {
     @Test
     public void successfullyRegister() {
 
-        homePage.linkToSignIn();
+        element.linkToSignIn();
         authenticationPage.enterEmailToCreateAccount(Information.getProperty("email"));
         authenticationPage.submitCreateAnAccount();
 

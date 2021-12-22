@@ -9,7 +9,7 @@ public class ItemLocation extends BaseTest {
     public void viewList() {
         categoriesMenu.linkToWomanPage();
         categoriesPage.viewList();
-        screenshot("viewGrid");
+        screenshot("viewList");
     }
 
     @Test

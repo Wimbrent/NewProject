@@ -60,4 +60,14 @@ public class Alert extends BasePage {
         }
         return this;
     }
+
+    public Alert warning() {
+        String actualWarning = driver.findElement(By.xpath("//p[@class = 'alert alert-warning']")).getText();
+        String noKeyword = "Please enter a search keyword";
+
+        if (actualWarning.equals(noKeyword)) {
+            System.out.println(actualWarning);
+        }
+        return this;
+    }
 }

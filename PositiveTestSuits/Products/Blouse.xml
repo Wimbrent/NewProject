@@ -7,7 +7,7 @@
         <classes>
             <class name="PositiveTestCases.LoginTest">
                 <methods>
-                    <include name="successfullySignIn"/>
+                    <include name="successfullySignInWithNewInfo"/>
                 </methods>
             </class>
         </classes>

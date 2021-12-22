@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Footer links">
+    <test name="Login">
+        <classes>
+            <class name="PositiveTestCases.LoginTest">
+                <methods>
+                    <include name="successfullySignInWithNewInfo"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <test name="Footer Links: Categories">
+        <classes>
+            <class name="PositiveTestCases.FooterTest">
+                <methods>
+                    <include name="women"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Footer Links: Information">
+        <classes>
+            <class name="PositiveTestCases.FooterTest">
+                <methods>
+                    <include name="specials"/>
+                    <include name="newProducts"/>
+                    <include name="bestSellers"/>
+                    <include name="ourStores"/>
+                    <include name="contactUS"/>
+                    <include name="termsAndConditionsOfUse"/>
+                    <include name="aboutUS"/>
+                    <include name="sitemap"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Footer Links: My Account">
+        <classes>
+            <class name="PositiveTestCases.FooterTest">
+                <methods>
+                    <include name="myAccount"/>
+                    <include name="myOrders"/>
+                    <include name="myCreditSlips"/>
+                    <include name="myAddress"/>
+                    <include name="myPersonalInfo"/>
+                    <include name="logout"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

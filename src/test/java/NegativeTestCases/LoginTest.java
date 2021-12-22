@@ -9,7 +9,7 @@ public class LoginTest extends BaseTest {
     /** Not entered email **/
     @Test
     public void notEnteredEmail() {
-        homePage.linkToSignIn();
+        element.linkToSignIn();
         field.enterEmail("");
         field.enterPassword(Information.getProperty("password"));
         authenticationPage.submitSignIn();
@@ -19,7 +19,7 @@ public class LoginTest extends BaseTest {
     /** Not entered password **/
     @Test
     public void notEnteredPassword() {
-        homePage.linkToSignIn();
+        element.linkToSignIn();
         field.enterEmail(Information.getProperty("email"));
         field.enterPassword("");
         authenticationPage.submitSignIn();

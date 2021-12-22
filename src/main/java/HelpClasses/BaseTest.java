@@ -1,8 +1,6 @@
 package HelpClasses;
 
-import Elements.Alert;
-import Elements.CheckBox;
-import Elements.Field;
+import Elements.*;
 import Pages.*;
 import Pages.Categories.CategoriesPage;
 import Pages.Categories.ComparePage;
@@ -31,10 +29,11 @@ public class BaseTest {
     public static Alert alert;
     public static Field field;
     public static CheckBox checkBox;
+    public static Footer footer;
     public static YourPersonalInformationPage yourPersonalInformationPage;
     public static OrderHistoryAndDetailsPage orderHistoryAndDetailsPage;
     public static AuthenticationPage authenticationPage;
-    public static HomePage homePage;
+    public static Element element;
     public static ForgottenPasswordPage forgottenPasswordPage;
     public static CategoriesMenu categoriesMenu;
     public static MyAccountPage myAccountPage;
@@ -65,7 +64,7 @@ public class BaseTest {
         checkBox = new CheckBox(driver);
         field = new Field(driver);
         authenticationPage = new AuthenticationPage(driver);
-        homePage = new HomePage(driver);
+        element = new Element(driver);
         forgottenPasswordPage = new ForgottenPasswordPage(driver);
         categoriesMenu = new CategoriesMenu(driver);
         categoriesPage = new CategoriesPage(driver);
@@ -78,6 +77,7 @@ public class BaseTest {
         checkoutPage = new CheckoutPage(driver);
         comparePage = new ComparePage(driver);
         quickView = new QuickView(driver);
+        footer = new Footer(driver);
     }
 
 

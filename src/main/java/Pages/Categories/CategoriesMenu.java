@@ -23,7 +23,7 @@ public class CategoriesMenu extends BasePage {
 
     /** Link to Woman Page **/
     public CategoriesMenu linkToWomanPage() {
-        driver.findElement(By.linkText("Women")).click();
+        driver.findElement(By.xpath("//div[@id = 'block_top_menu']/ul/li[1]/a")).click();
         Assert.assertEquals(driver.getTitle(), "Women - My Store");
         return this;
     }

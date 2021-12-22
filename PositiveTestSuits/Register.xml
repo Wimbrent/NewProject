@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Item Location" preserve-order="true">
-    <test name="view">
+<suite name="Register">
+    <test name="Register new account">
         <classes>
-            <class name="PositiveTestCases.ItemLocation">
+            <class name="PositiveTestCases.RegisterTest">
                 <methods>
-                    <include name="viewList"/>
-                    <include name="viewGrid"/>
+                    <include name="successfullyRegister"/>
                 </methods>
             </class>
         </classes>

@@ -2,18 +2,18 @@ _________________________
 Personal Information
 _________________________
 
-firstName = Andy
+firstName = Wendy
 lastName = Johns
-day = 20
-month = 3
-year = 1993
-email = myTestSelenium@Gmail.com
+day = 13
+month = 8
+year = 1997
+email = ThisIsMyTestSelenium@Gmail.com
 telephone = 6102702102018
 password = testPassword
 myAddress = Test Address
 
-wrongPassword = Nindehad11
-wrongEmail = dsfsdafs@gmail.com
+wrongPassword = thispasswordiswrong
+wrongEmail = thisemailiswrong@gmail.com
 
 
 _________________________
@@ -26,5 +26,5 @@ postCode = 75208
 country = United States
 state = Texas
 
-usedEmail = dsfsdafs2@gmail.com
-TestEmail = dsfsdafs2@gmail2.com
+usedEmail = myTestSelenium@gmail.com
+TestEmail = thistestemail@gmail2.com

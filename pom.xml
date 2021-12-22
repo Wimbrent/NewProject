@@ -136,6 +136,21 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M5</version>
                 <configuration>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>PositiveTestSuits/Register.xml</suiteXmlFile>
+                        <suiteXmlFile>PositiveTestSuits/LoginAndLogout.xml</suiteXmlFile>
+                        <suiteXmlFile>PositiveTestSuits/ForgottenPassword.xml</suiteXmlFile>
+                        <suiteXmlFile>PositiveTestSuits/YourPersonalInformation.xml</suiteXmlFile>
+                        <suiteXmlFile>PositiveTestSuits/NewLoginTest.xml</suiteXmlFile>
+                        <suiteXmlFile>PositiveTestSuits/MyAddress.xml</suiteXmlFile>
+                        <suiteXmlFile>PositiveTestSuits/MyWishlist.xml</suiteXmlFile>
+                        <suiteXmlFile>PositiveTestSuits/OrderHistoryAndInformation.xml</suiteXmlFile>
+                        <suiteXmlFile>PositiveTestSuits/Payments.xml</suiteXmlFile>
+                        <suiteXmlFile>PositiveTestSuits/Search.xml</suiteXmlFile>
+                        <suiteXmlFile>PositiveTestSuits/ItemLocation.xml</suiteXmlFile>
+                        <suiteXmlFile>PositiveTestSuits/Footer.xml</suiteXmlFile>
+                        <suiteXmlFile>PositiveTestSuits/Products.xml</suiteXmlFile>
+                    </suiteXmlFiles>
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>

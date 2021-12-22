@@ -36,7 +36,7 @@ public class ProductCategories extends BaseTest {
         categoriesMenu.linkToWomanPage();
         categoriesPage.productFrame(number);
         categoriesPage.addToWishList();
-        homePage.linkToAccount();
+        element.linkToAccount();
         myAccountPage.linkToMyWishList();
         myWishlistPage.directLinkByWishList();
         myWishlistPage.linkToProductPage(name);
@@ -56,7 +56,7 @@ public class ProductCategories extends BaseTest {
     /** Remove product from wishlist **/
     @Test
     public void removeFromWishList() {
-        homePage.linkToAccount();
+        element.linkToAccount();
         myAccountPage.linkToMyWishList();
         myWishlistPage.directLinkByWishList();
         myWishlistPage.delete();

@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="My Wishlist">
-    <test name="Login">
+<suite name="Login and Logout">
+    <test name="Login test with new email and password">
         <classes>
             <class name="PositiveTestCases.LoginTest">
                 <methods>
                     <include name="successfullySignInWithNewInfo"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
-
-    <test name="My Wishlist">
-        <classes>
-            <class name="PositiveTestCases.MyAccount.MyWishlist">
-                <methods>
-                    <include name="newWishlist"/>
+                    <include name="successfullySignOut"/>
                 </methods>
             </class>
         </classes>

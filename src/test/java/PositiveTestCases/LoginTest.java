@@ -10,16 +10,16 @@ public class LoginTest extends BaseTest {
 
     @Test
     public void successfullySignIn() {
-        homePage.linkToSignIn();
+        element.linkToSignIn();
         field.enterEmail(Information.getProperty("email"));
         field.enterPassword(Information.getProperty("password"));
         authenticationPage.submitSignIn();
         Assert.assertEquals(driver.getTitle(), "My account - My Store");
     }
 
-    @Test
+    @Test (priority = 0)
     public void successfullySignInWithNewInfo() {
-        homePage.linkToSignIn();
+        element.linkToSignIn();
         field.enterFirstName(NewInfo.getProperty("email"));
         field.enterLastName(NewInfo.getProperty("password"));
         authenticationPage.submitSignIn();
@@ -28,6 +28,6 @@ public class LoginTest extends BaseTest {
 
     @Test
     public void successfullySignOut() {
-        homePage.linkToSignOut();
+        element.linkToSignOut();
     }
 }

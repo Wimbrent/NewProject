@@ -9,7 +9,7 @@ public class RegisterTest extends BaseTest {
     /** Not entered email **/
     @Test
     public void CreateAnAccount() {
-        homePage.linkToSignIn();
+        element.linkToSignIn();
         authenticationPage.enterEmailToCreateAccount("");
         authenticationPage.submitCreateAnAccount();
         alert.danger();
@@ -18,7 +18,7 @@ public class RegisterTest extends BaseTest {
 
     @Test
     public void usedEmail() {
-        homePage.linkToSignIn();
+        element.linkToSignIn();
         authenticationPage.enterEmailToCreateAccount(Information.getProperty("usedEmail"));
         authenticationPage.submitCreateAnAccount();
         alert.danger();
@@ -27,7 +27,7 @@ public class RegisterTest extends BaseTest {
     @Test
     public void notEnteredFirstName() {
 
-        homePage.linkToSignIn();
+        element.linkToSignIn();
         authenticationPage.enterEmailToCreateAccount(Information.getProperty("TestEmail"));
         authenticationPage.submitCreateAnAccount();
 
@@ -56,7 +56,7 @@ public class RegisterTest extends BaseTest {
     @Test
     public void notEnteredLastName() {
 
-        homePage.linkToSignIn();
+        element.linkToSignIn();
         authenticationPage.enterEmailToCreateAccount(Information.getProperty("TestEmail"));
         authenticationPage.submitCreateAnAccount();
 
@@ -85,7 +85,7 @@ public class RegisterTest extends BaseTest {
     @Test
     public void notEnteredEmail() {
 
-        homePage.linkToSignIn();
+        element.linkToSignIn();
         authenticationPage.enterEmailToCreateAccount(Information.getProperty("TestEmail"));
         authenticationPage.submitCreateAnAccount();
 
@@ -115,7 +115,7 @@ public class RegisterTest extends BaseTest {
     @Test
     public void notEnteredPassword() {
 
-        homePage.linkToSignIn();
+        element.linkToSignIn();
         authenticationPage.enterEmailToCreateAccount(Information.getProperty("TestEmail"));
         authenticationPage.submitCreateAnAccount();
 
@@ -144,7 +144,7 @@ public class RegisterTest extends BaseTest {
     @Test
     public void yourAddress_notEnteredFirstName() {
 
-        homePage.linkToSignIn();
+        element.linkToSignIn();
         authenticationPage.enterEmailToCreateAccount(Information.getProperty("TestEmail"));
         authenticationPage.submitCreateAnAccount();
 
@@ -173,7 +173,7 @@ public class RegisterTest extends BaseTest {
     @Test
     public void yourAddress_NotEnteredLastName() {
 
-        homePage.linkToSignIn();
+        element.linkToSignIn();
         authenticationPage.enterEmailToCreateAccount(Information.getProperty("TestEmail"));
         authenticationPage.submitCreateAnAccount();
 
@@ -202,7 +202,7 @@ public class RegisterTest extends BaseTest {
     @Test
     public void notEnteredFirstAddress() {
 
-        homePage.linkToSignIn();
+        element.linkToSignIn();
         authenticationPage.enterEmailToCreateAccount(Information.getProperty("TestEmail"));
         authenticationPage.submitCreateAnAccount();
 
@@ -231,7 +231,7 @@ public class RegisterTest extends BaseTest {
     @Test
     public void notEnteredCity() {
 
-        homePage.linkToSignIn();
+        element.linkToSignIn();
         authenticationPage.enterEmailToCreateAccount(Information.getProperty("TestEmail"));
         authenticationPage.submitCreateAnAccount();
 
@@ -260,7 +260,7 @@ public class RegisterTest extends BaseTest {
     @Test
     public void notEnteredState() {
 
-        homePage.linkToSignIn();
+        element.linkToSignIn();
         authenticationPage.enterEmailToCreateAccount(Information.getProperty("TestEmail"));
         authenticationPage.submitCreateAnAccount();
 
@@ -288,7 +288,7 @@ public class RegisterTest extends BaseTest {
     @Test
     public void notEnteredPostCode() {
 
-        homePage.linkToSignIn();
+        element.linkToSignIn();
         authenticationPage.enterEmailToCreateAccount(Information.getProperty("TestEmail"));
         authenticationPage.submitCreateAnAccount();
 
@@ -317,7 +317,7 @@ public class RegisterTest extends BaseTest {
     @Test
     public void notSelectedCountry() {
 
-        homePage.linkToSignIn();
+        element.linkToSignIn();
         authenticationPage.enterEmailToCreateAccount(Information.getProperty("TestEmail"));
         authenticationPage.submitCreateAnAccount();
 
@@ -346,7 +346,7 @@ public class RegisterTest extends BaseTest {
     @Test
     public void notEnteredPhone() {
 
-        homePage.linkToSignIn();
+        element.linkToSignIn();
         authenticationPage.enterEmailToCreateAccount(Information.getProperty("TestEmail"));
         authenticationPage.submitCreateAnAccount();
 

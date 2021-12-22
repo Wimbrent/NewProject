@@ -8,7 +8,7 @@ public class ForgottenPasswordTest extends BaseTest {
 
     @Test
     public void successfullyRetrievePassword() {
-        homePage.linkToSignIn();
+        element.linkToSignIn();
         authenticationPage.linkToForgottenPassword();
         forgottenPasswordPage.enterEmail(Information.getProperty("email"));
         forgottenPasswordPage.submitRetrievePassword();
