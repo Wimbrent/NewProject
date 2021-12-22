@@ -137,19 +137,19 @@
                 <version>3.0.0-M5</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>PositiveTestSuits/Register.xml</suiteXmlFile>
-                        <suiteXmlFile>PositiveTestSuits/LoginAndLogout.xml</suiteXmlFile>
-                        <suiteXmlFile>PositiveTestSuits/ForgottenPassword.xml</suiteXmlFile>
-                        <suiteXmlFile>PositiveTestSuits/YourPersonalInformation.xml</suiteXmlFile>
-                        <suiteXmlFile>PositiveTestSuits/NewLoginTest.xml</suiteXmlFile>
-                        <suiteXmlFile>PositiveTestSuits/MyAddress.xml</suiteXmlFile>
-                        <suiteXmlFile>PositiveTestSuits/MyWishlist.xml</suiteXmlFile>
-                        <suiteXmlFile>PositiveTestSuits/OrderHistoryAndInformation.xml</suiteXmlFile>
-                        <suiteXmlFile>PositiveTestSuits/Payments.xml</suiteXmlFile>
-                        <suiteXmlFile>PositiveTestSuits/Search.xml</suiteXmlFile>
-                        <suiteXmlFile>PositiveTestSuits/ItemLocation.xml</suiteXmlFile>
-                        <suiteXmlFile>PositiveTestSuits/Footer.xml</suiteXmlFile>
-                        <suiteXmlFile>PositiveTestSuits/Products.xml</suiteXmlFile>
+                        <suiteXmlFile>PositiveTestSuites/Register.xml</suiteXmlFile>
+                        <suiteXmlFile>PositiveTestSuites/LoginAndLogout.xml</suiteXmlFile>
+                        <suiteXmlFile>PositiveTestSuites/ForgottenPassword.xml</suiteXmlFile>
+                        <suiteXmlFile>PositiveTestSuites/YourPersonalInformation.xml</suiteXmlFile>
+                        <suiteXmlFile>PositiveTestSuites/NewLoginTest.xml</suiteXmlFile>
+                        <suiteXmlFile>PositiveTestSuites/MyAddress.xml</suiteXmlFile>
+                        <suiteXmlFile>PositiveTestSuites/MyWishlist.xml</suiteXmlFile>
+                        <suiteXmlFile>PositiveTestSuites/OrderHistoryAndInformation.xml</suiteXmlFile>
+                        <suiteXmlFile>PositiveTestSuites/Payments.xml</suiteXmlFile>
+                        <suiteXmlFile>PositiveTestSuites/Search.xml</suiteXmlFile>
+                        <suiteXmlFile>PositiveTestSuites/ItemLocation.xml</suiteXmlFile>
+                        <suiteXmlFile>PositiveTestSuites/Footer.xml</suiteXmlFile>
+                        <suiteXmlFile>PositiveTestSuites/Products.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
