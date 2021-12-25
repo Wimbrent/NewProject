@@ -20,11 +20,13 @@ _________________________
 Address
 _________________________
 company = Life is Good
-firstAddress = N Winnetka Ave
+firstAddress = Winnetka Ave
+secondAddress = 1111 N
 city = Dallas
 postCode = 75208
 country = United States
 state = Texas
+myAddress = myDallas
 
 usedEmail = myTestSelenium@gmail.com
 TestEmail = thistestemail@gmail2.com

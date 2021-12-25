@@ -16,7 +16,7 @@
 
     <test name="Add to Cart">
         <classes>
-            <class name="PositiveTestCases.ProductCategories">
+            <class name="PositiveTestCases.ProductTest">
                 <methods>
                     <include name="addToCart"/>
                 </methods>
@@ -27,7 +27,7 @@
     <test name="Add to Wishlist">
         <parameter name="color" value="Orange"/>
         <classes>
-            <class name="PositiveTestCases.ProductCategories">
+            <class name="PositiveTestCases.ProductTest">
                 <methods>
                     <include name="addToWishList"/>
                 </methods>
@@ -37,7 +37,7 @@
 
     <test name="Remove from wishlist">
         <classes>
-            <class name="PositiveTestCases.ProductCategories">
+            <class name="PositiveTestCases.ProductTest">
                 <methods>
                     <include name="removeFromWishList"/>
                 </methods>
@@ -47,7 +47,7 @@
     
     <test name="Add to Compare">
         <classes>
-            <class name="PositiveTestCases.ProductCategories">
+            <class name="PositiveTestCases.ProductTest">
                 <methods>
                     <include name="addToCompare"/>
                 </methods>
@@ -57,7 +57,7 @@
 
     <test name="Remove from Compare">
         <classes>
-            <class name="PositiveTestCases.ProductCategories">
+            <class name="PositiveTestCases.ProductTest">
                 <methods>
                     <include name="removeFromCompare"/>
                 </methods>
@@ -70,7 +70,7 @@
         <parameter name="colorByID" value="color_22"/>
         <parameter name="size" value="S"/>
         <classes>
-            <class name="PositiveTestCases.ProductCategories">
+            <class name="PositiveTestCases.ProductTest">
                 <methods>
                     <include name="SelectColorAndBuy"/>
                 </methods>
@@ -82,7 +82,7 @@
         <parameter name="colorByID" value="color_22"/>
         <parameter name="size" value="M"/>
         <classes>
-            <class name="PositiveTestCases.ProductCategories">
+            <class name="PositiveTestCases.ProductTest">
                 <methods>
                     <include name="SelectColorAndBuy"/>
                 </methods>
@@ -94,7 +94,7 @@
         <parameter name="colorByID" value="color_22"/>
         <parameter name="size" value="L"/>
         <classes>
-            <class name="PositiveTestCases.ProductCategories">
+            <class name="PositiveTestCases.ProductTest">
                 <methods>
                     <include name="SelectColorAndBuy"/>
                 </methods>
@@ -106,7 +106,7 @@
         <parameter name="colorByID" value="color_21"/>
         <parameter name="size" value="S"/>
         <classes>
-            <class name="PositiveTestCases.ProductCategories">
+            <class name="PositiveTestCases.ProductTest">
                 <methods>
                     <include name="SelectColorAndBuy"/>
                 </methods>
@@ -118,7 +118,7 @@
         <parameter name="colorByID" value="color_21"/>
         <parameter name="size" value="M"/>
         <classes>
-            <class name="PositiveTestCases.ProductCategories">
+            <class name="PositiveTestCases.ProductTest">
                 <methods>
                     <include name="SelectColorAndBuy"/>
                 </methods>
@@ -130,7 +130,7 @@
         <parameter name="colorByID" value="color_21"/>
         <parameter name="size" value="L"/>
         <classes>
-            <class name="PositiveTestCases.ProductCategories">
+            <class name="PositiveTestCases.ProductTest">
                 <methods>
                     <include name="SelectColorAndBuy"/>
                 </methods>
@@ -142,7 +142,7 @@
         <parameter name="colorByID" value="color_20"/>
         <parameter name="size" value="S"/>
         <classes>
-            <class name="PositiveTestCases.ProductCategories">
+            <class name="PositiveTestCases.ProductTest">
                 <methods>
                     <include name="SelectColorAndBuy"/>
                 </methods>
@@ -154,7 +154,7 @@
         <parameter name="colorByID" value="color_20"/>
         <parameter name="size" value="M"/>
         <classes>
-            <class name="PositiveTestCases.ProductCategories">
+            <class name="PositiveTestCases.ProductTest">
                 <methods>
                     <include name="SelectColorAndBuy"/>
                 </methods>
@@ -166,7 +166,7 @@
         <parameter name="colorByID" value="color_20"/>
         <parameter name="size" value="L"/>
         <classes>
-            <class name="PositiveTestCases.ProductCategories">
+            <class name="PositiveTestCases.ProductTest">
                 <methods>
                     <include name="SelectColorAndBuy"/>
                 </methods>
@@ -178,7 +178,7 @@
         <parameter name="colorByID" value="color_19"/>
         <parameter name="size" value="S"/>
         <classes>
-            <class name="PositiveTestCases.ProductCategories">
+            <class name="PositiveTestCases.ProductTest">
                 <methods>
                     <include name="SelectColorAndBuy"/>
                 </methods>
@@ -190,7 +190,7 @@
         <parameter name="colorByID" value="color_19"/>
         <parameter name="size" value="M"/>
         <classes>
-            <class name="PositiveTestCases.ProductCategories">
+            <class name="PositiveTestCases.ProductTest">
                 <methods>
                     <include name="SelectColorAndBuy"/>
                 </methods>
@@ -202,7 +202,7 @@
         <parameter name="colorByID" value="color_21"/>
         <parameter name="size" value="L"/>
         <classes>
-            <class name="PositiveTestCases.ProductCategories">
+            <class name="PositiveTestCases.ProductTest">
                 <methods>
                     <include name="SelectColorAndBuy"/>
                 </methods>
@@ -214,7 +214,7 @@
         <parameter name="color" value="Black"/>
         <parameter name="size" value="S"/>
         <classes>
-            <class name="PositiveTestCases.ProductCategories">
+            <class name="PositiveTestCases.ProductTest">
                 <methods>
                     <include name="quickView"/>
                 </methods>
@@ -226,7 +226,7 @@
         <parameter name="color" value="Black"/>
         <parameter name="size" value="M"/>
         <classes>
-            <class name="PositiveTestCases.ProductCategories">
+            <class name="PositiveTestCases.ProductTest">
                 <methods>
                     <include name="quickView"/>
                 </methods>
@@ -238,7 +238,7 @@
         <parameter name="color" value="Black"/>
         <parameter name="size" value="L"/>
         <classes>
-            <class name="PositiveTestCases.ProductCategories">
+            <class name="PositiveTestCases.ProductTest">
                 <methods>
                     <include name="quickView"/>
                 </methods>
@@ -250,7 +250,7 @@
         <parameter name="color" value="Orange"/>
         <parameter name="size" value="S"/>
         <classes>
-            <class name="PositiveTestCases.ProductCategories">
+            <class name="PositiveTestCases.ProductTest">
                 <methods>
                     <include name="quickView"/>
                 </methods>
@@ -262,7 +262,7 @@
         <parameter name="color" value="Orange"/>
         <parameter name="size" value="M"/>
         <classes>
-            <class name="PositiveTestCases.ProductCategories">
+            <class name="PositiveTestCases.ProductTest">
                 <methods>
                     <include name="quickView"/>
                 </methods>
@@ -274,7 +274,7 @@
         <parameter name="color" value="Orange"/>
         <parameter name="size" value="L"/>
         <classes>
-            <class name="PositiveTestCases.ProductCategories">
+            <class name="PositiveTestCases.ProductTest">
                 <methods>
                     <include name="quickView"/>
                 </methods>
@@ -286,7 +286,7 @@
         <parameter name="color" value="Blue"/>
         <parameter name="size" value="S"/>
         <classes>
-            <class name="PositiveTestCases.ProductCategories">
+            <class name="PositiveTestCases.ProductTest">
                 <methods>
                     <include name="quickView"/>
                 </methods>
@@ -298,7 +298,7 @@
         <parameter name="color" value="Blue"/>
         <parameter name="size" value="M"/>
         <classes>
-            <class name="PositiveTestCases.ProductCategories">
+            <class name="PositiveTestCases.ProductTest">
                 <methods>
                     <include name="quickView"/>
                 </methods>
@@ -310,7 +310,7 @@
         <parameter name="color" value="Blue"/>
         <parameter name="size" value="L"/>
         <classes>
-            <class name="PositiveTestCases.ProductCategories">
+            <class name="PositiveTestCases.ProductTest">
                 <methods>
                     <include name="quickView"/>
                 </methods>
@@ -322,7 +322,7 @@
         <parameter name="color" value="Yellow"/>
         <parameter name="size" value="S"/>
         <classes>
-            <class name="PositiveTestCases.ProductCategories">
+            <class name="PositiveTestCases.ProductTest">
                 <methods>
                     <include name="quickView"/>
                 </methods>
@@ -334,7 +334,7 @@
         <parameter name="color" value="Yellow"/>
         <parameter name="size" value="M"/>
         <classes>
-            <class name="PositiveTestCases.ProductCategories">
+            <class name="PositiveTestCases.ProductTest">
                 <methods>
                     <include name="quickView"/>
                 </methods>
@@ -346,7 +346,7 @@
         <parameter name="color" value="Yellow"/>
         <parameter name="size" value="L"/>
         <classes>
-            <class name="PositiveTestCases.ProductCategories">
+            <class name="PositiveTestCases.ProductTest">
                 <methods>
                     <include name="quickView"/>
                 </methods>

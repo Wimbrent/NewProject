@@ -13,7 +13,7 @@
 
     <test name="My Wishlist">
         <classes>
-            <class name="PositiveTestCases.MyAccount.MyWishlist">
+            <class name="PositiveTestCases.MyAccount.MyWishlistTest">
                 <methods>
                     <include name="newWishlist"/>
                 </methods>

@@ -13,7 +13,7 @@
 
     <test name="Reorder">
         <classes>
-            <class name="PositiveTestCases.MyAccount.OrderHistoryAndDetails">
+            <class name="PositiveTestCases.MyAccount.OrderHistoryAndDetailsTest">
                 <methods>
                     <include name="reorder"/>
                 </methods>
@@ -23,7 +23,7 @@
 
     <test name="Details">
         <classes>
-            <class name="PositiveTestCases.MyAccount.OrderHistoryAndDetails">
+            <class name="PositiveTestCases.MyAccount.OrderHistoryAndDetailsTest">
                 <methods>
                     <include name="details"/>
                 </methods>

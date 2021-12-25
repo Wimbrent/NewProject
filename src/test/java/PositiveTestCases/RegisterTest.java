@@ -25,12 +25,13 @@ public class RegisterTest extends BaseTest {
         field.enterFirstName(Information.getProperty("firstName"));
         field.enterLastName(Information.getProperty("lastName"));
         field.enterFirstAddress(Information.getProperty("firstAddress"));
+        field.enterSecondAddress(Information.getProperty("secondAddress"));
         field.enterCity(Information.getProperty("city"));
         field.state(Information.getProperty("state"));
         field.enterPostCode(Information.getProperty("postCode"));
         field.country(Information.getProperty("country"));
         field.enterMobilePhone(Information.getProperty("telephone"));
-        field.enterMyAddress("Nohave");
+        field.enterMyAddress(Information.getProperty("myAddress"));
         field.submitRegister();
         Assert.assertEquals(driver.getTitle(), "My Account - My Store");
     }

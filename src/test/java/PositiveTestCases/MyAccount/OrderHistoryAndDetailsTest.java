@@ -1,10 +1,9 @@
 package PositiveTestCases.MyAccount;
 
 import HelpClasses.BaseTest;
-import HelpClasses.Information;
 import org.testng.annotations.Test;
 
-public class OrderHistoryAndDetails extends BaseTest {
+public class OrderHistoryAndDetailsTest extends BaseTest {
 
     @Test
     public void details() {

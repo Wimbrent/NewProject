@@ -3,7 +3,7 @@ package PositiveTestCases.MyAccount;
 import HelpClasses.BaseTest;
 import org.testng.annotations.Test;
 
-public class MyWishlist extends BaseTest {
+public class MyWishlistTest extends BaseTest {
 
     @Test
     public void newWishlist() {
@@ -11,4 +11,6 @@ public class MyWishlist extends BaseTest {
         myWishlistPage.enterWishListName("New wishlist");
         myWishlistPage.save();
     }
+
+
 }

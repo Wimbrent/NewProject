@@ -4,7 +4,7 @@ import HelpClasses.BaseTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class Search extends BaseTest {
+public class SearchTest extends BaseTest {
 
     @Test
     @Parameters("keyword")

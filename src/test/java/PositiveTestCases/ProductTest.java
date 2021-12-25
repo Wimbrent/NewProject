@@ -4,7 +4,7 @@ import HelpClasses.BaseTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class ProductCategories extends BaseTest {
+public class ProductTest extends BaseTest {
 
     /** Add to cart and buy **/
     @Test
@@ -95,7 +95,7 @@ public class ProductCategories extends BaseTest {
         comparePage.remove(number);
     }
 
-    /** 1) Select color
+    /** 1) Select color and size
      * 2) Add to cart
      * 3) Buy product **/
     @Test
@@ -119,7 +119,7 @@ public class ProductCategories extends BaseTest {
     }
 
     /** 1) Click quick view
-     * 2) Select color
+     * 2) Select color and size
      * 3) Add to cart
      * 4) Buy product **/
 
